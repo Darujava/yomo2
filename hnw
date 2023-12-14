@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T15:11:44.672Z" agent="5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7ORsVvXzeYB8ZXOk3AdR" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T15:15:27.636Z" agent="5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-4qpLNhuXTRY5DStRil_" version="20.8.20" type="github">
   <diagram name="ページ1" id="NB-ekNqrsOs0GbGNPOrq">
-    <mxGraphModel dx="897" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1031" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,9 +10,6 @@
         <mxCell id="TORWIcRDTjALMr4xzcTV-1" value="Internet Service Provider(ISP)&lt;br&gt;GMO とくとくBB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="310" y="20" width="79.37" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TORWIcRDTjALMr4xzcTV-2" value="VPN Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vpn_gateway;" vertex="1" parent="1">
-          <mxGeometry x="510" y="120" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="TORWIcRDTjALMr4xzcTV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-3" target="TORWIcRDTjALMr4xzcTV-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -20,11 +17,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-3" target="TORWIcRDTjALMr4xzcTV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TORWIcRDTjALMr4xzcTV-3" value="ONU&lt;br&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
           <mxGeometry x="319.69" y="140" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-7" target="TORWIcRDTjALMr4xzcTV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TORWIcRDTjALMr4xzcTV-7" value="ルーター&lt;br&gt;YAMAHA RTX1200" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" vertex="1" parent="1">
           <mxGeometry x="310" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-9" target="TORWIcRDTjALMr4xzcTV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-9" value="スイッチ" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-11" value="光IP電話" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.ip_phone;" vertex="1" parent="1">
+          <mxGeometry x="180" y="151.5" width="76.5" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-13" value="アクセスポイント（AP）" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
