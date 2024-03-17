@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2023-12-14T15:22:19.857Z" agent="5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jsnxCaT1akqs-XCw-TLT" version="20.8.20" type="github">
+  <diagram name="ページ1" id="NB-ekNqrsOs0GbGNPOrq">
+    <mxGraphModel dx="1375" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TORWIcRDTjALMr4xzcTV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-1" target="TORWIcRDTjALMr4xzcTV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-1" value="Internet Service Provider(ISP)&lt;br&gt;GMO とくとくBB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="79.37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-3" target="TORWIcRDTjALMr4xzcTV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-3" target="TORWIcRDTjALMr4xzcTV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-3" value="ONU&lt;br&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
+          <mxGeometry x="319.69" y="140" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-7" target="TORWIcRDTjALMr4xzcTV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-7" value="ルーター&lt;br&gt;YAMAHA RTX1200" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-9" target="TORWIcRDTjALMr4xzcTV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-9" target="TORWIcRDTjALMr4xzcTV-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="490" />
+              <mxPoint x="230" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-9" target="TORWIcRDTjALMr4xzcTV-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-9" value="スイッチ" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-11" value="光IP電話" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.ip_phone;" vertex="1" parent="1">
+          <mxGeometry x="180" y="151.5" width="76.5" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-13" target="TORWIcRDTjALMr4xzcTV-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="490" />
+              <mxPoint x="570" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-13" value="アクセスポイント（AP）" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-15" value="スマホ" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_generic;" vertex="1" parent="1">
+          <mxGeometry x="640" y="483" width="50" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TORWIcRDTjALMr4xzcTV-13" target="TORWIcRDTjALMr4xzcTV-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="500" as="sourcePoint" />
+            <mxPoint x="600" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="490" />
+              <mxPoint x="570" y="522" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-20" value="ラップトップPC（無線LAN）" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="389" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-22" value="デスクトップPC（有線LAN）&lt;br&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="168.25" y="550" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TORWIcRDTjALMr4xzcTV-24" value="プリンタ" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.printer;" vertex="1" parent="1">
+          <mxGeometry x="302" y="560" width="96" height="78.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
